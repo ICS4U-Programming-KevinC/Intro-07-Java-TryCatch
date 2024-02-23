@@ -1,3 +1,4 @@
+import java.util.Scanner;
 /**
  * Its Hello World, but with style.
  *
@@ -5,7 +6,6 @@
  * @version 1.0
  * @since 2024-02-15
  */
-import java.util.Scanner;
 
 public final class VolSphere {
   /** Private constructor to prevent instantiation of this utility class. */
@@ -24,8 +24,8 @@ public final class VolSphere {
     Scanner sc = new Scanner(System.in);
 
     // Ask user for their radius.
-    System.out.println(
-        "This program calculates the volume of a sphere!!\nWhat is the radius of your sphere?");
+    System.out.println("This program calculates the volume of a sphere!!");
+    System.out.println("What is the radius of your sphere?");
     String radString = sc.nextLine();
 
     // Cast the input to a double.
