@@ -1,4 +1,5 @@
 import java.util.Scanner;
+
 /**
  * Its Hello World, but with style.
  *
@@ -6,7 +7,6 @@ import java.util.Scanner;
  * @version 1.0
  * @since 2024-02-15
  */
-
 public final class VolSphere {
   /** Private constructor to prevent instantiation of this utility class. */
   private VolSphere() {
